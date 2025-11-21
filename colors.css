@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffe6e6; /* Fondo rosado suave */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff4d4d; /* Rojo romántico */
+    color: white;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    
+    margin: 20px 0;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+
+img {
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#mensaje{
+    text-align:justify;
+}
+#musica{
+    background-color:#FFB2C5;
+}
+#heart {
+    font-size: 100px; /* Tamaño del corazón */
+    color: red;
+    cursor: pointer;
+    animation: latir 1s infinite; /* Animación de latido */
+    display: inline-block;
+}
+
+#heart {
+    font-size: 100px;
+    animation: latir 1s infinite;
+    display: inline-block;
+}
+@keyframes latir {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+}
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}
+.delay {
+    animation-delay: 1s; /* Aparece después */
+}
+@keyframes fadeIn {
+    to { opacity: 1; }
+}
